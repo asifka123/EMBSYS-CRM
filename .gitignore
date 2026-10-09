@@ -1,0 +1,26 @@
+# Secrets & Environment variables
+backend/.env
+.env
+*.env
+
+# Local development OTP inbox & logs
+.dev_otp_inbox.json
+backend/.dev_otp_inbox.json
+*.log
+
+# Python
+backend/venv/
+venv/
+__pycache__/
+backend/__pycache__/
+*.pyc
+
+# Frontend dependencies & build output
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
